@@ -4,7 +4,7 @@
 #
 version: 1.0
 apiversion: 2
-description: My module
+description: Address Book extensions for iOS 
 author: Jeff Haynie
 license: Apache Public License v2
 copyright: Appcelerator
