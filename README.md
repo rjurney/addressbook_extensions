@@ -8,10 +8,13 @@ Right now, the only new function is the iOS vcard representation of a person obj
 Given a [Titanium.Contacts.Person](http://docs.appcelerator.com/titanium/2.1/index.html#!/api/Titanium.Contacts.Person) object, you can get it using:
 
 ~~~
+var addressbook = require("org.appcelerator.addressbook.ext");
 var vcard = addressbook.createVCardRepresentationWithPeople(person);
 ~~~
 
 This is also a simple example on how to create a module in Titanium for iOS.
+
+See the `examples/app.js` for a more full featured example.
 
 License
 -------
